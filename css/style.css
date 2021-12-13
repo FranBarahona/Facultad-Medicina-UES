@@ -100,13 +100,13 @@ border-radius: 10px;
     padding:50px;
     text-align: justify;
     overflow: hidden;
+    
 }
 .modal__textos a{
     text-decoration: none;
 }
 span{
     font-weight: bold;
-    
 }
 .close{
     position: absolute;
@@ -127,10 +127,26 @@ span{
 
 footer {
 background-color: #65e4c7;
- text-align: center;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0px;
+     
 }
 footer i{
-    width: 100%;
+    color: black;
+    padding: 0px 5px;
+ font-size:20px;
+}
+footer a{
+    display:flex;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    
 }
 @media only screen and (max-width: 1180px) {
     .container__card {
@@ -158,11 +174,21 @@ footer i{
     }
   }
 
-  @media only screen and (max-width:1500px){
+  @media only screen and (max-width:1600px){
     .modal{
-        height :80%;
+        height :70%;
+ 
     }
+  .modal__textos{
+      overflow-y: scroll;
+  }
 
+  }
+
+  @media only scrren and (max-width:1800px){
+    .modal__textos{
+        overflow-y: scroll;
+    }
   }
 
   @media only screen and (max-width:700px){
@@ -174,19 +200,20 @@ footer i{
     }
     .modal{
         width:80%;
-        height :75%;
+        height :50%;
     }
   }
 
-  @media only screen and(max-width:500px){
+  @media only screen and (max-width:500px){
     .modal__container{
         height:100%;
     }
     .modal__textos{
-        font-size:50px;
+        font-size:30px;
     }
     .modal{
         width:80%;
-        height :65%;
+        height :50%;
     }
   }
+
