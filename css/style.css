@@ -100,8 +100,7 @@ border-radius: 10px;
     padding:50px;
     text-align: justify;
     overflow: hidden;
-    font-size: 20px;
-    overflow-y: scroll;
+
     
 }
 .modal__textos a{
