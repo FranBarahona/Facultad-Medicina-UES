@@ -100,6 +100,8 @@ border-radius: 10px;
     padding:50px;
     text-align: justify;
     overflow: hidden;
+    font-size: 20px;
+    overflow-y: scroll;
     
 }
 .modal__textos a{
@@ -211,7 +213,7 @@ footer p {
         height:100%;
     }
     .modal__textos{
-        font-size:23px;
+        font-size:30px;
     }
     .modal{
         width:80%;
@@ -237,7 +239,7 @@ footer p {
         height:100%;
     }
     .modal__textos{
-        font-size:30px;
+        font-size:40px;
     }
     .modal{
         width:80%;
